@@ -1,0 +1,135 @@
+.bookshelves-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: ghostwhite;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.bookshelves-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.side-bar {
+  background-color: #ffffff;
+  width: 25%;
+  height: 100vh;
+  padding: 25px;
+}
+
+.bookshelves {
+  font-size: 20px;
+  font-weight: 600;
+}
+.side-bar {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  .side-bar {
+    display: block;
+  }
+  .bookshelves-section {
+    margin-top: 95px;
+  }
+}
+
+.main-content {
+  width: 75%;
+  padding: 20px;
+}
+
+.header-bar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.books-category-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  order: 2;
+  margin-left: 0px;
+}
+
+.search-bar {
+  display: flex;
+  order: 1;
+}
+.bookshelves-mobile-view {
+  display: block;
+  order: 3;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 576px) {
+  .header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .books-category-title {
+    order: 1;
+  }
+  .search-bar {
+    order: 2;
+  }
+  .bookshelves-mobile-view {
+    display: none;
+  }
+}
+
+.search-input {
+  height: 37px;
+  width: 200px;
+  padding: 5px;
+  border: 2px solid gainsboro;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  height: 37px;
+  width: 60px;
+  border: 2px solid gainsboro;
+  border-left: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-button:focus {
+  outline: none;
+}
+
+.bookshelves-books-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.no-videos-image {
+  width: 476px;
+  height: 327px;
+}
+.no-videos-para {
+  font-size: 24px;
+  margin-top: 10px;
+}

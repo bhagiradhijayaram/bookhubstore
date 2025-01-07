@@ -1,0 +1,29 @@
+.top-rated-book-image {
+  width: 146px;
+  height: 99px;
+}
+
+.book-title-author-container {
+  text-align: center;
+  margin-top: 10px;
+}
+.top-rated-book-title {
+  font-size: 12px;
+  color: #334155;
+}
+.top-rated-book-author-name {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .top-rated-book-image {
+    width: 350px;
+    height: 224px;
+  }
+  .top-rated-book-title {
+    font-size: 24px;
+  }
+  .top-rated-book-author-name {
+    font-size: 14px;
+  }
+}

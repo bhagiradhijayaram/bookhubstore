@@ -1,0 +1,22 @@
+.footer-section {
+  text-align: center;
+  padding: 20px;
+  background-color: ghostwhite;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+.contact-us {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'HK Grotesk', sans-serif;
+}

@@ -1,0 +1,22 @@
+.shelve-item {
+  padding: 8px 0px 8px 0px;
+}
+
+.label-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+}
+.label-button:hover {
+  color: #0284c7;
+}
+.label-button:focus {
+  outline: none;
+}
+.bookshelves-list {
+  display: flex;
+  flex-direction: column;
+}

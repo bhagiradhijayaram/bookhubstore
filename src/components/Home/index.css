@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  background-color: ghostwhite;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 1200px;
+}
+
+.favorite-books-container {
+  margin-top: 80px;
+  padding: 20px;
+}
+.favorite-books-heading {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  width: 312px;
+  margin-bottom: 10px;
+}
+
+.favorite-books-paragraph {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 312px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 10px;
+}
+
+.top-rated-heading {
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.top-rated-books-section {
+  background-color: #ffffff;
+  height: 270px;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-rated-books-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.find-books-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  width: 104px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
+.slider-container {
+  padding: 10px;
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.books-details-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+
+.failure-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 20px;
+}
+
+.try-again-button {
+  width: 87px;
+  height: 32px;
+  border-radius: 12px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.failure-image {
+  width: 347px;
+  height: 170px;
+}
+
+@media screen and (min-width: 578px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .favorite-books-heading {
+    font-size: 40px;
+    width: 701px;
+  }
+  .favorite-books-paragraph {
+    font-size: 20px;
+    width: 100%;
+    line-height: 32px;
+  }
+  .top-rated-books-section {
+    height: 424px;
+  }
+}
